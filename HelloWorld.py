@@ -33,3 +33,6 @@ print (addtext)
 
 repttext = "ab"
 print (repttext * 3)
+
+counttext = "1234567890123456789"
+print (len(counttext))
