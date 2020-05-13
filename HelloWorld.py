@@ -45,4 +45,9 @@ print (counttext[3:11:2]) # 先頭3番目〜11番目の前を１つ飛ばし＝4
 
 number = 65535
 
-print ("%dの16進数表記は%xです。"%(number,number))
+print ("%6dの16進数表記は%5xです。"%(number,number))
+
+print ("[%5d]"%(123))  # 右詰め５桁
+print ("[%05d]"%(123)) # 0埋め５桁
+print ("[%+5d]"%(123)) # 右詰めsign付き５桁
+print ("[%-5d]"%(123)) # 左詰め５桁
