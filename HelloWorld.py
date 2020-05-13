@@ -38,3 +38,5 @@ counttext = "1234567890123456789"
 print (len(counttext))
 
 print (counttext[3] + counttext[-2]) # 先頭3番目と後ろから2番目
+
+print (counttext[3:5]) # 先頭3番目〜5番目の前＝45
