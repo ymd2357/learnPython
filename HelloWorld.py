@@ -25,3 +25,11 @@ longtext = """エスケープシーケンスを使用する他に、
 簡単に改行付きの文字列が作れる。"""
 
 print (longtext)
+
+addtext1 = "ABC"
+addtext2 = "def"
+addtext = addtext1 + addtext2
+print (addtext)
+
+repttext = "ab"
+print (repttext * 3)
