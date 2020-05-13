@@ -40,3 +40,5 @@ print (len(counttext))
 print (counttext[3] + counttext[-2]) # 先頭3番目と後ろから2番目
 
 print (counttext[3:5]) # 先頭3番目〜5番目の前＝45
+
+print (counttext[3:11:2]) # 先頭3番目〜11番目の前を１つ飛ばし＝4680
