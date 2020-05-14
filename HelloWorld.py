@@ -54,4 +54,6 @@ print ("[%-5d]"%(123)) # 左詰め５桁
 
 name = "Sato"
 old = 22
-print(f"My name is {name:<8s}. {old:>3} years old.")
+print("My name is {:<8s}. {:>3d} years old.".format(name, old))
+
+print(f"My name is {name:<8s}. {old:>3d} years old.") #python3.6~
