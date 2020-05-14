@@ -13,3 +13,7 @@ print(abc2.upper().title())
 print(abc2.swapcase())
 print("\n")
 
+print(abc2.upper().islower())
+print(abc2.upper().isupper())
+print(abc2.istitle())
+print(abc2.lower().istitle())
