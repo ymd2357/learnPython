@@ -55,3 +55,8 @@ text = "abcabcabc"
 print(text.find("ab"))
 print(text.find("ab",2))
 print(text.find("ab",2,4))
+
+print(text.index("ab"))
+print(text.index("ab",2))
+print(text.index("ab",2,4)) #ValueError
+
