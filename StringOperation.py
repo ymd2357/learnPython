@@ -39,3 +39,14 @@ print("拾伍 is digit?:")
 print("拾伍".isdigit())
 print("拾伍 is numeric?:") 
 print("拾伍".isnumeric())
+
+print("\n")
+
+print("42.195km is alpha?")
+print("42.195km".isalpha())
+print("42.195km is alpha or num?")
+print("42.195km".isalnum())
+print("42.195km is ascii?")
+print("42.195km".isascii())
+
+print("\n")
