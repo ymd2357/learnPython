@@ -50,3 +50,8 @@ print("42.195km is ascii?")
 print("42.195km".isascii())
 
 print("\n")
+
+text = "abcabcabc"
+print(text.find("ab"))
+print(text.find("ab",2))
+print(text.find("ab",2,4))
