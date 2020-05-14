@@ -63,3 +63,9 @@ print(text.index("ab",2))
 print(text.rfind("ab"))
 print(text.rfind("ab",3))
 print(text.rfind("ab",3,5))
+
+print("\n")
+
+print(text.count("ab"))
+print(text.count("ab",3))
+print(text.count("ab",3,6))
